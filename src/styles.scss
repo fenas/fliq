@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+ * File: styles.scss
+ * Project: fliq
+ * File Created: Sunday, 10th May 2020 12:47:35 am
+ * Author: Adithya Sreyaj
+ * -----
+ * Last Modified: Sunday, 10th May 2020 1:06:22 am
+ * Modified By: Adithya Sreyaj<adi.sreyaj@gmail.com>
+ * -----
+ */
+
+@import '~normalize.css';
+@import 'settings/colors';
+@import 'settings/typography';
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
